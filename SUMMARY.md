@@ -26,9 +26,10 @@ This enables long-form reasoning, multi-role dialog, principled constraints, and
 
 ## What’s in This Repository
 
-- A canonical, read-only implementation (`anchoring_codified.json`)
-- The original paper explaining its rationale (`The_Anchored_Form_v2.pdf`)
-- Supporting files for understanding and (optionally) extending the system
+- **anchoring_codified_1.json** — governing codifier (read-only)  
+- **anchoring_codified.json** — maintained only for versioning continuity; not updated independently  
+- **The_Anchored_Form_v2.pdf** — reference paper  
+- **SUMMARY.md** — this high-level guide  
 
 This file serves as a high-level guide for what anchoring is and why it exists.
 

@@ -1,37 +1,30 @@
-# CONTRIBUTING.md
+# Contributing Guidelines
 
-## ❗ Canonical Files Are Locked
+This repository is maintained by the owner only.  
+Files in this repository are **read-only** to others. No Pull Requests or direct edits will be accepted.
 
-This repository is a **read-only canonical implementation** of the Anchoring Framework.
+## Policy
+- **Codifiers**
+  - The governing codifiers are numbered (`anchoring_codified_1.json`, `anchoring_codified_2.json`, …).
+  - The file `anchoring_codified.json` exists only for versioning continuity and is not updated independently.
+  - Only the repository owner may add or update codifiers.
+- **Paper**
+  - `The_Anchored_Form_v2.pdf` is the published reference paper.
+  - New versions of the paper (e.g. `The_Anchored_Form_v3.pdf`) may be added by the owner.
+- **Other files**
+  - `SUMMARY.md`, `README.md`, and other support files are maintained by the owner.
 
-- `anchoring_codified.json` is the codified system. **Do not modify.**
-- `The_Anchored_Form_v2.pdf` is the final paper. **Do not replace.**
-- This repository is not actively maintained and does not accept changes to the origin.
+## What You Can Do
+- Fork or clone this repository to create your own versions.  
+- Adapt or extend codifiers in your own repositories.  
+- Reuse materials under the terms of the license.
 
----
+## What You Cannot Do
+- Submit Pull Requests to this repository.  
+- Edit or propose changes to files here.  
+- Treat `anchoring_codified.json` as an active codifier (it is deprecated).
 
-## 🧬 Variants Are Allowed (Under Structure)
+## License
+All materials are under [CC BY 4.0](LICENSE).  
+You are free to reuse them under that license in your own work.
 
-If you wish to propose a variation of the framework:
-
-1. Create a new codifier file inside `/variants/`
-2. Include a matching test case in `/variants/tests/`
-3. Do **not** overwrite or edit canonical files
-
-Variants must be clearly labeled and must not claim to represent the original work.
-
----
-
-## 🚫 Minimal Interaction Policy
-
-This project is **not maintained** and **issues may not receive replies**.
-
-The author will only intervene if:
-
-- Canonical files are threatened
-- Misrepresentation occurs
-- Structural clarity is at risk
-
----
-
-Thank you for respecting the boundaries of this publication.
